@@ -12,6 +12,7 @@
 <body>
     
     @include('components.header')
+    @include('components.jumbotron')
 
     @yield('content')
 

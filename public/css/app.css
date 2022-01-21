@@ -6,6 +6,10 @@ header {
   padding: 10px 0;
 }
 
+header img {
+  width: 155px;
+}
+
 header li {
   display: inline-block;
   margin: 0 15px;
@@ -20,6 +24,11 @@ header li a {
   text-decoration: none;
   padding-bottom: 48px;
   color: black;
+}
+
+#jumbotron {
+  background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/Justice-League-Universsal-Featured.jpg");
+  height: 400px;
 }
 
 #footer-buy {
