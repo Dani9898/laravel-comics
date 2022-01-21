@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
 header {
   background-color: #fff;
   display: flex;
@@ -29,6 +39,51 @@ header li a {
 #jumbotron {
   background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/Justice-League-Universsal-Featured.jpg");
   height: 400px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#current-series {
+  background-color: #0282f9;
+  color: #fff;
+  padding: 20px 30px;
+  position: absolute;
+  top: -29px;
+  left: 0px;
+}
+
+#btn-more {
+  margin: 30px auto;
+  color: white;
+  font-size: 22px;
+  background-color: #0282f9;
+  padding: 10px 55px;
+}
+
+.serie {
+  color: #fff;
+  margin-top: 55px;
+  width: 16.6666666667%;
+  padding: 0 20px;
+}
+
+.serie .serie-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.serie .serie-img img {
+  width: 100%;
+}
+
+.serie .serie-name {
+  margin-top: 20px;
 }
 
 #footer-buy {
