@@ -1,1 +1,95 @@
-//
+
+
+// FOOTER
+#footer-buy {
+    height: 150px;
+    background-color: #0282f9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+      .buy-comics {
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+          img {
+            width: 50px;
+          }
+          
+          span {
+            margin-left: 15px;
+          }
+      }
+  }
+  
+  #footer-menu {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRXk5CTZCsssdvP7SSzRYMpDaK0xae0VoVA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  
+      nav {
+        padding: 45px 0;
+        display: flex;
+        
+          div {
+            margin: 0 10px;
+          }
+        
+      }
+  
+      h3 {
+        color: white;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style-type: none;
+        margin-bottom: 10px;
+      }
+  
+      li {
+        color: #5b6f7b;
+        margin: 2px 0;
+      }
+  }
+  
+  #logo-footer {
+    img {
+      width: 600px;
+      height: 100%;
+      object-fit: none;
+    }
+  
+  }
+  
+  #footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #303030;
+    padding: 30px 0;
+  
+      .sign-up {
+        padding: 10px 20px;
+        color: #fff;
+        border: 2px solid #0282f9;
+      }
+  
+      .socials {
+        color: #0282f9;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+          span {
+            margin-right: 20px;
+          }
+          
+          img {
+            margin: 0 10px;
+            width: 50px;
+          }
+      }
+  }
+ 
