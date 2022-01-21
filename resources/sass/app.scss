@@ -1,5 +1,30 @@
+// HEADER
 
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
 
+      li {
+        display: inline-block;
+        margin: 0 15px;
+        
+        &.active a {
+          border-bottom: 5px solid #0282f9;
+          color: #0282f9
+        }
+
+        a {
+          text-decoration: none;
+          padding-bottom: 48px;
+          color: black;
+        }
+      }
+  }
+
+  
 // FOOTER
 #footer-buy {
     height: 150px;
