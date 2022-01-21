@@ -6,9 +6,6 @@
     box-sizing: border-box;
   }
   
-  body {
-    background-color: #1c1c1c;
-  }
 
 // HEADER
 
@@ -56,6 +53,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    background-color: #1c1c1c;
   }
   
   #current-series {
@@ -95,8 +93,7 @@ header {
         }
 }
 
-// FOOTER
-#footer-buy {
+#home-buy {
     height: 150px;
     background-color: #0282f9;
     color: #fff;
@@ -115,6 +112,69 @@ header {
           }
       }
   }
+
+// FUMETTO (CONTENT)
+
+.comic {
+    width: 60%;
+    margin: auto;
+}
+
+.lightblue-bar {
+    background-color: #0282f9;
+    height: 50px;
+}
+
+
+.descrizione-prodotto {
+    
+    h2 {
+        color: #003f5e;
+    }
+}
+
+.prezzo-disponibilità {
+    background: #55ba59;
+    height: 50px;
+    width: 60%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    
+    .prezzo {
+        width: 75%;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        border-right: 1px solid black;
+        align-items: center;
+    }
+
+    .disponibilità {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+
+
+    .light-green {
+        color: #bafd9c;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .text {
+        width: 60%;
+    }
+}
+
+
+
+
+// FOOTER
   
   #footer-menu {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRXk5CTZCsssdvP7SSzRYMpDaK0xae0VoVA&usqp=CAU");

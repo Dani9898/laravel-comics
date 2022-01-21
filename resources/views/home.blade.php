@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div id="container">
+<section id="container">
 
     <div id="current-series">CURRENT SERIES</div>
 
@@ -140,6 +140,29 @@
     </div>
 
     <div id="btn-more">LOAD MORE</div>
-</div>
+</section>
+
+<section id="home-buy">
+    <div class="buy-comics" >
+      <img  style = "width: 100px" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+      <span>DIGITAL COMICS</span>
+    </div>
+    <div class="buy-comics" >
+        <img  style = "width: 100px" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+        <span>DC MERCHANDISE</span>
+      </div>
+      <div class="buy-comics" >
+        <img  style = "width: 100px" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+        <span>SUBSCRIPTION</span>
+      </div>
+      <div class="buy-comics" >
+        <img  style = "width: 100px" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+        <span>COMIC SHOP LOCATOR</span>
+      </div>
+      <div class="buy-comics" >
+        <img  style = "width: 100px" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+        <span>DC POWER VISA</span>
+      </div>
+  </section>
 
 @endsection

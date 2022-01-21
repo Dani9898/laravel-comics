@@ -1,11 +1,9 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #1c1c1c;
 }
 
 header {
@@ -47,6 +45,7 @@ header li a {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  background-color: #1c1c1c;
 }
 
 #current-series {
@@ -86,7 +85,7 @@ header li a {
   margin-top: 20px;
 }
 
-#footer-buy {
+#home-buy {
   height: 150px;
   background-color: #0282f9;
   color: #fff;
@@ -94,18 +93,69 @@ header li a {
   justify-content: center;
 }
 
-#footer-buy .buy-comics {
+#home-buy .buy-comics {
   display: flex;
   align-items: center;
   margin: 0 30px;
 }
 
-#footer-buy .buy-comics img {
+#home-buy .buy-comics img {
   width: 50px;
 }
 
-#footer-buy .buy-comics span {
+#home-buy .buy-comics span {
   margin-left: 15px;
+}
+
+.comic {
+  width: 60%;
+  margin: auto;
+}
+
+.lightblue-bar {
+  background-color: #0282f9;
+  height: 50px;
+}
+
+.descrizione-prodotto h2 {
+  color: #003f5e;
+}
+
+.prezzo-disponibilità {
+  background: #55ba59;
+  height: 50px;
+  width: 60%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.prezzo-disponibilità .prezzo {
+  width: 75%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+  align-items: center;
+}
+
+.prezzo-disponibilità .disponibilità {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prezzo-disponibilità .light-green {
+  color: #bafd9c;
+}
+
+.prezzo-disponibilità .white {
+  color: white;
+}
+
+.prezzo-disponibilità .text {
+  width: 60%;
 }
 
 #footer-menu {
