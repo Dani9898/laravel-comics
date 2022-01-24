@@ -50,7 +50,8 @@
     </nav>
 
     <div id="logo-footer">
-        <img src= >
+        <img src="{{ asset('storage/assets/dc-logo-bg.png') }}" alt="">
+
     </div>
 
     </section>

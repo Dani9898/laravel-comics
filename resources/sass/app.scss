@@ -6,6 +6,11 @@
     box-sizing: border-box;
   }
   
+  .cf::after {
+    content:"";
+    display: table;
+    clear: both;
+}
 
 // HEADER
 
@@ -17,7 +22,7 @@ header {
     padding: 10px 0;
 
         img {
-            width: 155px;
+            width: 104px;
         }
 
         li {
@@ -40,20 +45,23 @@ header {
 
 // JUMBOTRON
 #jumbotron {
-    background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/Justice-League-Universsal-Featured.jpg");
+    // background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/Justice-League-Universsal-Featured.jpg");
+    background-image: url("/storage/assets/jumbotron.jpg");
     height: 400px;
 }
 
 
 // HOME (CONTENT)
+#home {
+  background-color: #1c1c1c;
+}
 
-#container {
+.container {
     margin: 0 auto;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    background-color: #1c1c1c;
   }
   
   #current-series {
@@ -81,6 +89,7 @@ header {
         
         .serie-img {
             width: 100%;
+            height: 200px;
             overflow: hidden;
 
             img {
@@ -117,7 +126,7 @@ header {
 
 .comic {
     width: 60%;
-    margin: auto;
+    margin: 45px auto 0 auto;
 }
 
 .lightblue-bar {
@@ -127,16 +136,17 @@ header {
 
 
 .descrizione-prodotto {
-    
-    h2 {
-        color: #003f5e;
-    }
+  width: 70%;
+  float: left;
+
+  h2 {
+    color: #003f5e;
+  }
 }
 
 .prezzo-disponibilità {
     background: #55ba59;
     height: 50px;
-    width: 60%;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     display: flex;
@@ -167,8 +177,22 @@ header {
     }
 
     .text {
-        width: 60%;
+        width: 10%;
     }
+}
+
+.advertisement {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  
+  h4 {
+    text-align: end;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 
@@ -177,7 +201,8 @@ header {
 // FOOTER
   
   #footer-menu {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRXk5CTZCsssdvP7SSzRYMpDaK0xae0VoVA&usqp=CAU");
+    background-image: url("/storage/assets/footer-bg.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
