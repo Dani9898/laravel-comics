@@ -8,10 +8,12 @@
         <div id="current-series">CURRENT SERIES</div>
 
         <div class="serie">
-            <div class="serie-img">
-                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX">
-            </div>
-
+            <a href="{{ route('comic') }}">
+                <div class="serie-img">
+                    <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX">
+                </div>
+            </a>
+            
             <div class="serie-name">
                 <span>Action Comics</span>
             </div>

@@ -17,4 +17,4 @@ Route::get('/', 'HomeController@home') -> name('home');
 
 Route::get('comic', function () {
     return view('comic');
-});
+}) -> name('comic');
